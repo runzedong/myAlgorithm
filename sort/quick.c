@@ -16,7 +16,7 @@ int partition (int a[],int p,int r){
 	temp=a[i+1];
 	a[i+1]=a[r];
 	a[r]=temp;
-	//printf("%d\n",(i+1));
+	//printf("%d\n",(i+1)) ;
 	return i+1;
 
 }
